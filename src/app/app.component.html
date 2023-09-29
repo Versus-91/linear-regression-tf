@@ -1,1 +1,7 @@
-<input type="number">
+<div class="columns mt-4">
+    <div class="column">
+        {{prediction}}
+        <input type="number" class="input is-primary" (change)="predictResult($event)">
+        Input number
+    </div>
+</div>
